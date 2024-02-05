@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejemplo de Eventos en
+Javascript</title>
+<style>
+#caja {
+width: 200px;
+height: 200px;
+background-color: blue
+}
+</style>
+</head>
+<body>
+<div id="caja"></div>
+<button id="boton">Cambiar color</button>
+<script>
+var caja = document.getElementById("caja");
+var boton = document.getElementById("boton");
+boton.onclick = function() {
+caja.style.backgroundColor = "red"
+};
+</script>
+</body>
+</html>
