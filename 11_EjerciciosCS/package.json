@@ -1,0 +1,20 @@
+{
+  "name": "11_ejercicioscs",
+  "version": "1.0.0",
+  "description": "practica cliente servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "practica",
+    "modelo",
+    "cliente",
+    "servidor"
+  ],
+  "author": "Lina Quintero",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
+}
